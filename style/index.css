@@ -1,0 +1,185 @@
+header{
+            
+    position: fixed;
+}
+#nav{
+   margin: -8px;
+   padding: 10px;
+   padding-top: 30px;
+   margin-bottom: 0px;
+   background-color: #e42529;
+  
+}
+
+/* NAVBAR1 styling part */
+
+#nav1{
+   display: flex;
+}
+#search{
+    border-radius: 30px;
+    height: 30px;
+    padding: 10px;
+    background-color: white;
+    margin-left: 250px;
+
+}
+#searchinput{
+   height: 25px;
+   width: 450px;
+   border-radius: 20px;
+   border: 0px;
+   font-size: 15px;
+}
+#searchbtn{
+   height: 35px;
+   border: 0px;
+}
+.white{
+  display:flex;
+   color: white;
+   height: 20%;
+   width: 20%;
+   gap: 10px;
+}
+.white:hover{
+   cursor: pointer;
+}
+#cartUser{
+   
+   margin-left: 180px;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+  
+  
+   gap: 50px;
+}
+img:hover{
+   cursor: pointer;
+}
+#nav1:hover{
+   cursor: pointer;
+}
+
+/* NAVBAR2 styling part */
+
+#nav2{
+   margin-left: -10px;
+   margin-right: -10px;
+   margin-bottom: -10px;
+   display: flex;
+   gap: 10px;
+   background-color: rgb(0, 0, 158);
+}
+.grn{
+   font-size: 13px;
+color: white;   
+margin: auto;
+}
+.grn>h4{
+   margin: 15px;
+}
+.grn:hover{
+   background-color: #e42529;
+}
+
+
+/* body styling part */
+
+
+body{
+   position:absolute;
+}
+#imgContainer1{
+  margin-top: 135px;
+   margin-left: -8px;
+   margin-right: -8px;
+}
+#imgContainer2{
+   margin-left: -8px;
+   margin-right: -8px;
+}
+#imgContainer1>img{
+   width: 100%;
+}
+#imgContainer2>img{
+   width: 100%;
+}
+
+
+
+/* footer part styling */
+
+
+footer{
+   background-color: rgb(0, 0, 158);
+   height: 700px;
+   margin-left: -8px;
+   margin-right: -8px;
+}
+#foot1{
+   display: flex;
+   margin: auto;
+}
+#foot1>div{
+   width: 22%;
+   margin: auto;
+  margin-top: 0px;
+}
+.fHead{
+   color: white;
+  margin-left: 55px;
+  font-size: 18px;
+}
+
+.fWhite{
+   color: white;
+}
+.fWhite>li{
+   margin: 15px;
+   font-weight: bold;
+}
+.fWhite>li:hover{
+   cursor: pointer;
+}
+#foot2{
+   display:flex;
+   width: 60%;
+}
+#foot2>div{
+   margin: auto;
+}
+#foot2icon{
+   display: flex;
+   gap: 10px;
+
+}
+#foot2icon>i{
+   color: white;
+}
+
+#foot2 div>p{
+   color: white;
+   font-weight: bold;
+}
+#footimg{
+   display: flex;
+}
+#footimg div>img{
+   width: 150px
+}
+#foot2>div:hover{
+   cursor:pointer;
+}
+#foot3{
+   height: 200px;
+   background-color:#0a244a;
+   color: white;
+   text-align: center;
+   padding: 5px;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+hr{
+   color: gainsboro;
+}
