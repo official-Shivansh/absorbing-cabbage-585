@@ -35,3 +35,17 @@ setInterval(function(){
         y=0
     }
 },2300)
+
+let home=document.getElementById("logo");
+home.addEventListener("click", function(){
+    window.location.href="index.html"
+})
+
+let login=document.getElementById("login");
+login.addEventListener("click", function(){
+    window.location.href="login.html"
+})
+let cart=document.getElementById("cart");
+cart.addEventListener("click", function(){
+    window.location.href="cart.html"
+})
