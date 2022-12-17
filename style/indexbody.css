@@ -13,3 +13,71 @@
   #imgContainer2>img{
      width: 100%;
   }
+  #conatainerGrid{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 20px;
+   width: 98%;
+   margin: auto;
+  }
+  #conatainerGrid div >img{
+   width: 100%;
+  }
+  #imgContainer3>img{
+   width: 100%;
+}
+
+#con4head{
+   color: rgb(0, 0, 158);
+   font-size: 22px;
+}
+#container4{
+   display: flex;
+   margin: auto;
+   margin-bottom: 20px;
+   width: 98%;
+}
+#container4>div{
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   text-align: center;
+   width: 22%;
+   margin: auto;
+   padding: auto;
+}
+#container4 div>img{
+   width: 30%;
+   height: 80px;
+   
+}
+#container4 div>h5{
+   margin-top: 2px;
+   margin-bottom: 2px;
+   font-weight: bold;
+   color: rgb(0, 0, 158);
+}
+#container4 div>p{
+   margin-top: 2px;
+   font-size: 10px;
+   color: grey;
+}
+#apiContainer{
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      grid-template-rows: auto;
+      gap: 30px;
+ 
+}
+#apiContainer div>img{
+   width: 90%;
+   height: 30%;
+}
+#apiContainer div>button{
+   background-color:  white;
+   color: rgb(16, 160, 16);
+   border: 3px  solid rgb(16, 160, 16);
+   border-radius: 35%;
+   width: 50%;
+   height: 5%;
+   float:inline-start;
+}
