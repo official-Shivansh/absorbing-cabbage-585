@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>User Login Reliance Digital</title>
+    <style>
+        #formlog{
+            text-align: center;
+        }
+       #formlog>input{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        height: 30px;
+        width: 300px;
+        
+       }
+        #flogin{
+            background-color: rgb(202, 223, 253);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin:auto;
+            margin-top: 200px;
+            margin-bottom: 100px;
+            padding: 50px;
+            width: 25%;
+            border-radius: 7%;
+            
+        }
+        .lbl{
+            float: left;
+            font-size: 20px;
+            font-weight:bold;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        input[type=submit] {
+          background-color: #04AA6D;
+          color: white;
+          padding: 2px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+         
+        }
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        </style>
+
+<header>
+    <div id="nav">
+        <div id="nav1">
+            <div id="logo"><img src="https://www.reliancedigital.in/build/client/images/loaders/rd_logo.svg" alt="">
+            </div>
+            <div id="search"><input type="text" id="searchinput" placeholder="     Find your favorite product"><i id="searchbtn" class="fa-solid fa-magnifying-glass"></i></div>
+            <div id="cartUser">
+                <h3  id="cart" class="white">Cart<i class="fa-solid fa-cart-shopping white"></i></h3>
+                
+                <h3 id="login" class="white">Login <i class="fa-solid fa-user white"></i></h3>
+               </div>
+        </div>
+        <div id="nav2">
+          <div id="one" class="blu"><h4>MOBILES & TABLETS <i class="fa-solid fa-angle-down"></i></h4></div>
+          <div id="two" class="blu"><h4>TELEVISIONS<i class="fa-solid fa-angle-down"></i></h4></div>
+          <div id="three" class="blu"><h4>AUDIO<i class="fa-solid fa-angle-down"></i></h4></div>
+          <div id="four" class="blu"><h4>HOME APPLIANCES<i class="fa-solid fa-angle-down"></i></h4></div>
+          <div id="five" class="blu"><h4>COMPUTERS<i class="fa-solid fa-angle-down"></i></h4></div>
+          <div id="six" class="blu"><h4>CAMERAS<i class="fa-solid fa-angle-down"></i> </h4></div>
+          <div id="seven" class="blu"><h4>KITCHEN APPLIANCES<i class="fa-solid fa-angle-down"></i></h4></div>
+          <div id="eight" class="blu"><h4>PEOSONAL CARE<i class="fa-solid fa-angle-down"></i></h4></div>
+          <div id="nine"class="blu"><h4>ACCESSORIES<i class="fa-solid fa-angle-down"></i></h4></div>
+        </div>
+    </div>
+    <div id="nav2data">
+      <div>
+        <h2>Smartphones</h2>
+        <ul style="list-style-type:none">
+          <h3>Wearable Technology</h3>
+          <li>Top Selling Smartwatches</li>
+          <li>Apple Price Drop</li>
+          <h3>Accessories</h3>
+          <li>Tablet Accessories</li>
+          <li>Mobile Accessories</li>
+          <li>Mobile Grips & Stands</li>
+          <li>Car Mobile Holders</li>
+          <li>Memory Cards</li>
+          <li>Cables & Cords</li>
+          <li>Chargers & Adapters</li>
+         
+        </ul>
+      </div>
+      <div>
+      <h2>Headphones & Headsets</h2>
+      <ul style="list-style-type:none">
+      <h3>Tablets & eReader</h3>
+      <li>Every Day use Tablets below 15000</li>
+      <li>Premium Tablets, Above 15001</li>
+      <h3>power Banks</h3>
+      <h3>eSlates</h3>
+      </ul>
+      </div>
+      <div>
+        <h2>AI Learing Robots</h2>
+      </div>
+    </div>
+    <div id="nav3data">
+      <div>
+        <h2>Televisions</h2>
+        <ul style="list-style-type:none">
+        <li>Smart TV's</li>
+        <li>32 inch TV's</li>
+        <li>43 inch TV's</li>
+        <li>55 inch TV's</li>
+        <li>Android TV's</li>
+      </ul>
+      </div>
+      <div>
+        <h2>Gaming</h2>
+        <ul style="list-style-type:none">
+          <li>Gaming Consoles</li>
+          <li>Gaming Accessories</li>
+          <li>Gaming Titles</li>
+          <h2>Projectors</h2>
+          <li>Streaming Devices</li>
+        </ul>
+      </div>
+    </div>
+    <div id="nav4data">
+      <ul style="list-style-type:none">
+        <li>Top Selling Smartwatches</li>
+        <li>Apple Price Drop</li>
+        <li>Tablet Accessories</li>
+        <li>Mobile Accessories</li>
+        <li>Mobile Grips & Stands</li>
+        <li>Car Mobile Holders</li>
+        <li>Memory Cards</li>
+        <li>Cables & Cords</li>
+        <li>Chargers & Adapters</li>
+       
+      </ul>
+    </div>
+    <div id="nav5data">
+      <ul style="list-style-type:none">
+        <li>Top Selling Smartwatches</li>
+        <li>Apple Price Drop</li>
+        <li>Tablet Accessories</li>
+        <li>Mobile Accessories</li>
+        <li>Mobile Grips & Stands</li>
+        <li>Car Mobile Holders</li>
+        <li>Memory Cards</li>
+        <li>Cables & Cords</li>
+        <li>Chargers & Adapters</li>
+       
+      </ul>
+    </div>
+    <div id="nav6data">
+      <ul style="list-style-type:none">
+        <li>Top Selling Smartwatches</li>
+        <li>Apple Price Drop</li>
+        <li>Tablet Accessories</li>
+        <li>Mobile Accessories</li>
+        <li>Mobile Grips & Stands</li>
+        <li>Car Mobile Holders</li>
+        <li>Memory Cards</li>
+        <li>Cables & Cords</li>
+        <li>Chargers & Adapters</li>
+       
+      </ul>
+    </div>
+    <div id="nav7data">
+      <ul style="list-style-type:none">
+        <li>Top Selling Smartwatches</li>
+        <li>Apple Price Drop</li>
+        <li>Tablet Accessories</li>
+        <li>Mobile Accessories</li>
+        <li>Mobile Grips & Stands</li>
+        <li>Car Mobile Holders</li>
+        <li>Memory Cards</li>
+        <li>Cables & Cords</li>
+        <li>Chargers & Adapters</li>
+       
+      </ul>
+    </div>
+    <div id="nav8data">
+      <ul style="list-style-type:none">
+        <li>Top Selling Smartwatches</li>
+        <li>Apple Price Drop</li>
+        <li>Tablet Accessories</li>
+        <li>Mobile Accessories</li>
+        <li>Mobile Grips & Stands</li>
+        <li>Car Mobile Holders</li>
+        <li>Memory Cards</li>
+        <li>Cables & Cords</li>
+        <li>Chargers & Adapters</li>
+       
+      </ul>
+    </div>
+    <div id="nav9data">
+      <ul style="list-style-type:none">
+        <li>Top Selling Smartwatches</li>
+        <li>Apple Price Drop</li>
+        <li>Tablet Accessories</li>
+        <li>Mobile Accessories</li>
+        <li>Mobile Grips & Stands</li>
+        <li>Car Mobile Holders</li>
+        <li>Memory Cards</li>
+        <li>Cables & Cords</li>
+        <li>Chargers & Adapters</li>
+       
+      </ul>
+    </div>
+    <div id="nav10data">
+      <ul style="list-style-type:none">
+        <li>Top Selling Smartwatches</li>
+        <li>Apple Price Drop</li>
+        <li>Tablet Accessories</li>
+        <li>Mobile Accessories</li>
+        <li>Mobile Grips & Stands</li>
+        <li>Car Mobile Holders</li>
+        <li>Memory Cards</li>
+        <li>Cables & Cords</li>
+        <li>Chargers & Adapters</li>
+       
+      </ul>
+    </div>
+</header>
+<body >
+<div id="flogin">
+    
+    
+    <form action="" id="formlog">
+        <label for="chkphn" class="lbl">Mobile Number</label><br>
+        <input type="number" id="chkphn" placeholder="Enter your Phone Number"><br>
+        <label for="chkpass" class="lbl">Password</label><br>
+        <input type="password" id="chkpass" placeholder="Enter your password"><br>
+        <input type="submit">
+    </form>
+</div>
+
+</body>
+<footer>
+    <div id="foot1">
+    <div>
+      <h4 class="fHead">PRODUCT CATEGORIES</h4>
+      <ul class="fWhite" style="list-style-type:none">
+      <li>Smartphone</li>
+      <li>Laptops</li>
+      <li>DSLR Cameras</li>
+      <li>Televisions</li>
+      <li>Air Conditioners</li>
+      <li>Refrigerators</li>
+      <li>Kitchen Appliances</li>
+      <li>Accessories</li>
+      <li>Personal Care & Grooming</li>
+  </ul>
+    </div>
+    <div>
+      <h4 class="fHead">SITE INFO</h4>
+      <ul class="fWhite" style="list-style-type:none">
+      <li>About Reliance Digital</li>
+      <li>resQ Service</li>
+      <li>Site Map</li>
+      <li>Gift Cards</li>
+      <li>Corporate Enquires</li>
+      <li>Contact Us</li>
+      
+  </ul>
+    </div>
+    <div>
+      <h4 class="fHead">RESOURCE CENTER</h4>
+      <ul class="fWhite" style="list-style-type:none">
+      <li>Product Review</li>
+      <li>Buying Guides</li>
+      <li>How Tos</li>
+      <li>Featured Stories</li>
+      <li>Events & Happenings</li>
+  </ul>
+    </div>
+    <div>
+      <h4 class="fHead">POLICIES</h4>
+      <ul class="fWhite" style="list-style-type:none">
+      <li>Terms of Use</li>
+      <li>FAQs</li>
+      <li>Cancellantion and Return Policy</li>
+      <li>Pricing and Payments Policy</li>
+      <li>Shipping and Delivery Policy</li>
+      <li>Privacy Policy</li>
+      <li>E-waste Recycling Policy</li>
+      <li>EMI and Additional Cashback T&C</li>
+      <li>RelianceOne Loyalty Program T&C </li>
+      <li>Caution Notice</li>
+  </ul>
+    </div>
+    </div>
+    <div id="foot2">
+     <div>
+      <p>FOLLOW US</p>
+      <div id="foot2icon"><i class="fa-brands fa-square-facebook "></i>
+          <i class="fa-brands fa-twitter "></i>
+          <i class="fa-brands fa-youtube "></i>
+      </div>
+     </div>
+     <div>
+      <p>EXPERIENCE RELIANCE DIGITAL APP ON MOBILE</p>
+      <div id="footimg">
+          <div><img src="https://www.reliancedigital.in/build/client/images/google_play_store.png" alt=""></div>
+      <div><img src="https://www.reliancedigital.in/build/client/images/ios_app_store_icon.png" alt=""></div>
+      </div>
+     </div>
+    </div>
+    <div id="foot3">
+      <h3><u>Disclaimer</u></h3>
+      <p>Product prices, offers and availability are subject to change from time to time. All prices are inclusive of taxes. Product colours & images are only for illustration and they may not exactly match with the actual product. Product specs are subject to change & may vary from actual product. While every care is taken to avoid inaccuracies in content, these are provided as is, without warranty of any kind.</p>
+      <hr>
+      <p> © 2022 Reliance Digital. All Rights Reserved.</p>
+    </div>
+  </footer>
+</html>
+<script src="/absorbing-cabbage-585/scripts/index.js"></script>
+<script src="/absorbing-cabbage-585/scripts/flogin.js"></script>
