@@ -84,6 +84,74 @@ margin: auto;
 .blu:hover{
    background-color: #e42529;
 }
+#nav2data{
+   color: white;
+   display: none;
+   background-color: rgb(28, 28, 128);
+   margin-top0px;
+   padding: 20px;
+}
+#nav3data{
+   color: white;
+   display: none;
+   background-color: rgb(28, 28, 128);
+    margin-top: 0px;
+   padding: 20px;
+
+}
+#nav4data{
+   color: white;
+   display: none;
+   background-color: rgb(28, 28, 128);
+    margin-top: 0px;
+   padding: 20px;
+}
+#nav5data{
+   color: white;
+   display: none;
+   background-color: rgb(28, 28, 128);
+    margin-top: 0px;
+   padding: 20px;
+}
+#nav6data{
+   color: white;
+   display: none;
+   background-color: rgb(28, 28, 128);
+    margin-top: 0px;
+   padding: 20px;
+}
+#nav7data{
+   color: white;
+   display: none;
+   background-color: rgb(28, 28, 128);
+    margin-top: 0px;
+   padding: 20px;
+}
+#nav8data{
+   color: white;
+   display: none;
+   background-color: rgb(28, 28, 128);
+    margin-top: 0px;
+   padding: 20px;
+}
+#nav9data{
+   color: white;
+   display: none;
+   background-color: rgb(28, 28, 128);
+    margin-top: 0px;
+   padding: 20px;
+}
+#nav10data{
+   color: white;
+   display: none;
+   background-color: rgb(28, 28, 128);
+    margin-top: 0px;
+   padding: 20px;
+}
+li{
+   margin: 15px;
+   font-weight: bold;
+}
 
 
 /* body styling part */
