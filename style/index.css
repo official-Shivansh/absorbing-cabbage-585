@@ -73,15 +73,15 @@ img:hover{
    gap: 10px;
    background-color: rgb(0, 0, 158);
 }
-.grn{
+.blu{
    font-size: 13px;
 color: white;   
 margin: auto;
 }
-.grn>h4{
+.blu>h4{
    margin: 15px;
 }
-.grn:hover{
+.blu:hover{
    background-color: #e42529;
 }
 
