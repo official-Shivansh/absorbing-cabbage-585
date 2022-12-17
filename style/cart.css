@@ -1,0 +1,15 @@
+#maincontainer{
+    margin-top: 150px;
+}
+#cartContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+
+
+#cartContainer div>img{
+    width: 90%;
+    height: 30%;
+
+}
