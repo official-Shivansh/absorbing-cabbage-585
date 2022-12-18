@@ -15,6 +15,7 @@ cart.addEventListener("click", function(){
 let one=document.getElementById("one")
 one.addEventListener("mouseenter",function(){
     document.getElementById("nav2data").style.display = "flex"
+    document.getElementById("nav2data").style.gap = "70px"
 })
 one.addEventListener("mouseleave",function(){
     document.getElementById("nav2data").style.display = "none"
@@ -22,55 +23,63 @@ one.addEventListener("mouseleave",function(){
 let two=document.getElementById("two")
 two.addEventListener("mouseenter",function(){
     document.getElementById("nav3data").style.display = "flex"
+    document.getElementById("nav3data").style.gap = "70px"
 })
 two.addEventListener("mouseleave",function(){
     document.getElementById("nav3data").style.display = "none"
 })
 let three=document.getElementById("three")
 three.addEventListener("mouseenter",function(){
-    document.getElementById("nav4data").style.display = "block"
+    document.getElementById("nav4data").style.display = "flex"
+    document.getElementById("nav4data").style.gap = "70px"
 })
 three.addEventListener("mouseleave",function(){
     document.getElementById("nav4data").style.display = "none"
 })
 let four=document.getElementById("four")
 four.addEventListener("mouseenter",function(){
-    document.getElementById("nav5data").style.display = "block"
+    document.getElementById("nav5data").style.display = "flex"
+    document.getElementById("nav5data").style.gap = "70px"
 })
 four.addEventListener("mouseleave",function(){
     document.getElementById("nav5data").style.display = "none"
 })
 let five=document.getElementById("five")
 five.addEventListener("mouseenter",function(){
-    document.getElementById("nav6data").style.display = "block"
+    document.getElementById("nav6data").style.display = "flex"
+    document.getElementById("nav6data").style.gap = "70px"
 })
 five.addEventListener("mouseleave",function(){
     document.getElementById("nav6data").style.display = "none"
 })
 let six=document.getElementById("six")
 six.addEventListener("mouseenter",function(){
-    document.getElementById("nav7data").style.display = "block"
+    document.getElementById("nav7data").style.display = "flex"
+    document.getElementById("nav7data").style.gap = "70px"
 })
 six.addEventListener("mouseleave",function(){
     document.getElementById("nav7data").style.display = "none"
 })
 let seven=document.getElementById("seven")
 seven.addEventListener("mouseenter",function(){
-    document.getElementById("nav8data").style.display = "block"
+    document.getElementById("nav8data").style.display = "flex"
+    document.getElementById("nav8data").style.gap = "70px"
 })
 seven.addEventListener("mouseleave",function(){
     document.getElementById("nav8data").style.display = "none"
 })
 let eight=document.getElementById("eight")
 eight.addEventListener("mouseenter",function(){
-    document.getElementById("nav9data").style.display = "block"
+    document.getElementById("nav9data").style.display = "flex"
+    document.getElementById("nav9data").style.gap = "70px"
 })
 eight.addEventListener("mouseleave",function(){
     document.getElementById("nav9data").style.display = "none"
 })
 let nine=document.getElementById("nine")
 nine.addEventListener("mouseenter",function(){
-    document.getElementById("nav10data").style.display = "block"
+    document.getElementById("nav10data").style.display = "flex"
+    document.getElementById("nav10data").style.gap = "70px"
 })
 nine.addEventListener("mouseleave",function(){
     document.getElementById("nav10data").style.display = "none"
